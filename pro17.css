@@ -1,0 +1,50 @@
+body{
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+}
+.container{
+  background-color: rgb(243, 243, 241);
+  padding: 50px 25px;
+
+}
+.container h1{
+    font-family: cursive;
+   letter-spacing: 5px;
+   margin-bottom: 10px;
+   color: rgb(23, 23, 52);
+   text-align: center;
+}
+.container p {
+font-weight: bold;
+font-size: 75px;
+color: rgb(22, 22, 65);
+text-align: center;
+}
+ button{
+  font-size: 18px;
+  padding : 10px 20px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5%;
+  text-transform: uppercase;
+  transition: opacity .3s ease-in-out;
+}
+ button:hover{
+    opacity: .7;
+ }
+ #Start{
+  background-color: green;
+}
+#stop{
+    background-color: red;
+  }
+ #reset{
+    background-color: blue;
+  }
+    
+
